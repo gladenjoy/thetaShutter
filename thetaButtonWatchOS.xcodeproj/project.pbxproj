@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DC463FA216E95E195D875D7 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C5CB17535BEAA62B83EDFF /* Pods.framework */; };
 		928DEA9C1C37B347002E7E88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928DEA9B1C37B347002E7E88 /* AppDelegate.swift */; };
 		928DEA9E1C37B347002E7E88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928DEA9D1C37B347002E7E88 /* ViewController.swift */; };
 		928DEAA11C37B347002E7E88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 928DEA9F1C37B347002E7E88 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 		928DEAC31C37B348002E7E88 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928DEAC21C37B348002E7E88 /* ExtensionDelegate.swift */; };
 		928DEAC51C37B348002E7E88 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928DEAC41C37B348002E7E88 /* NotificationController.swift */; };
 		928DEAC71C37B348002E7E88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 928DEAC61C37B348002E7E88 /* Assets.xcassets */; };
+		928DEAD71C37B44D002E7E88 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 928DEAD61C37B44D002E7E88 /* camera.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6EA1E476C9F3FDBF7C051B70 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		76C5CB17535BEAA62B83EDFF /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8039D80BD8C11C7726ABC88E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		928DEA981C37B347002E7E88 /* thetaButtonWatchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thetaButtonWatchOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		928DEA9B1C37B347002E7E88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		928DEA9D1C37B347002E7E88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +88,10 @@
 		928DEAC41C37B348002E7E88 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		928DEAC61C37B348002E7E88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		928DEAC81C37B348002E7E88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		928DEAD61C37B44D002E7E88 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = camera.png; path = ../../../Downloads/camera.png; sourceTree = "<group>"; };
+		928DEAD81C37B6CF002E7E88 /* thetaButtonWatchOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = thetaButtonWatchOS.entitlements; sourceTree = "<group>"; };
+		928DEAD91C37B7F6002E7E88 /* thetaButtonWatchOS WatchKit App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "thetaButtonWatchOS WatchKit App.entitlements"; sourceTree = "<group>"; };
+		928DEADA1C37B80A002E7E88 /* thetaButtonWatchOS WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "thetaButtonWatchOS WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DC463FA216E95E195D875D7 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +120,8 @@
 				928DEAAE1C37B347002E7E88 /* thetaButtonWatchOS WatchKit App */,
 				928DEABD1C37B348002E7E88 /* thetaButtonWatchOS WatchKit Extension */,
 				928DEA991C37B347002E7E88 /* Products */,
+				ED88E9DFF3783C8F0C536AB7 /* Pods */,
+				9C8DB2C9DE718C88556F8BE6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,10 +138,12 @@
 		928DEA9A1C37B347002E7E88 /* thetaButtonWatchOS */ = {
 			isa = PBXGroup;
 			children = (
+				928DEAD81C37B6CF002E7E88 /* thetaButtonWatchOS.entitlements */,
 				928DEA9B1C37B347002E7E88 /* AppDelegate.swift */,
 				928DEA9D1C37B347002E7E88 /* ViewController.swift */,
 				928DEA9F1C37B347002E7E88 /* Main.storyboard */,
 				928DEAA21C37B347002E7E88 /* Assets.xcassets */,
+				928DEAD61C37B44D002E7E88 /* camera.png */,
 				928DEAA41C37B347002E7E88 /* LaunchScreen.storyboard */,
 				928DEAA71C37B347002E7E88 /* Info.plist */,
 			);
@@ -139,6 +153,7 @@
 		928DEAAE1C37B347002E7E88 /* thetaButtonWatchOS WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
+				928DEAD91C37B7F6002E7E88 /* thetaButtonWatchOS WatchKit App.entitlements */,
 				928DEAAF1C37B347002E7E88 /* Interface.storyboard */,
 				928DEAB21C37B347002E7E88 /* Assets.xcassets */,
 				928DEAB41C37B347002E7E88 /* Info.plist */,
@@ -149,6 +164,7 @@
 		928DEABD1C37B348002E7E88 /* thetaButtonWatchOS WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				928DEADA1C37B80A002E7E88 /* thetaButtonWatchOS WatchKit Extension.entitlements */,
 				928DEAC01C37B348002E7E88 /* InterfaceController.swift */,
 				928DEAC21C37B348002E7E88 /* ExtensionDelegate.swift */,
 				928DEAC41C37B348002E7E88 /* NotificationController.swift */,
@@ -167,6 +183,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9C8DB2C9DE718C88556F8BE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76C5CB17535BEAA62B83EDFF /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED88E9DFF3783C8F0C536AB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8039D80BD8C11C7726ABC88E /* Pods.debug.xcconfig */,
+				6EA1E476C9F3FDBF7C051B70 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -174,10 +207,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 928DEAD31C37B348002E7E88 /* Build configuration list for PBXNativeTarget "thetaButtonWatchOS" */;
 			buildPhases = (
+				8C07714F64B87BDDE9A5864C /* Check Pods Manifest.lock */,
 				928DEA941C37B347002E7E88 /* Sources */,
 				928DEA951C37B347002E7E88 /* Frameworks */,
 				928DEA961C37B347002E7E88 /* Resources */,
 				928DEAD21C37B348002E7E88 /* Embed Watch Content */,
+				D1999016D9D78514632FC329 /* Embed Pods Frameworks */,
+				F4357A1887D8F85EFC4B1F5C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,14 +272,29 @@
 					928DEA971C37B347002E7E88 = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = 6LZ9SWSMBH;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					928DEAA91C37B347002E7E88 = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = 6LZ9SWSMBH;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					928DEAB81C37B348002E7E88 = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = 6LZ9SWSMBH;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -274,6 +325,7 @@
 			files = (
 				928DEAA61C37B347002E7E88 /* LaunchScreen.storyboard in Resources */,
 				928DEAA31C37B347002E7E88 /* Assets.xcassets in Resources */,
+				928DEAD71C37B44D002E7E88 /* camera.png in Resources */,
 				928DEAA11C37B347002E7E88 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,6 +348,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8C07714F64B87BDDE9A5864C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D1999016D9D78514632FC329 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4357A1887D8F85EFC4B1F5C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		928DEA941C37B347002E7E88 /* Sources */ = {
@@ -446,10 +546,14 @@
 		928DEACC1C37B348002E7E88 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "thetaButtonWatchOS WatchKit Extension/thetaButtonWatchOS WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "thetaButtonWatchOS WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gladenjoy.thetaButtonWatchOS.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -460,10 +564,14 @@
 		928DEACD1C37B348002E7E88 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "thetaButtonWatchOS WatchKit Extension/thetaButtonWatchOS WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "thetaButtonWatchOS WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gladenjoy.thetaButtonWatchOS.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -475,11 +583,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "thetaButtonWatchOS WatchKit App/thetaButtonWatchOS WatchKit App.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = thetaButtonWatchOS_WatchKit_Extension;
 				INFOPLIST_FILE = "thetaButtonWatchOS WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gladenjoy.thetaButtonWatchOS.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -491,11 +603,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "thetaButtonWatchOS WatchKit App/thetaButtonWatchOS WatchKit App.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = thetaButtonWatchOS_WatchKit_Extension;
 				INFOPLIST_FILE = "thetaButtonWatchOS WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gladenjoy.thetaButtonWatchOS.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -505,23 +621,35 @@
 		};
 		928DEAD41C37B348002E7E88 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8039D80BD8C11C7726ABC88E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = thetaButtonWatchOS/thetaButtonWatchOS.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = thetaButtonWatchOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gladenjoy.thetaButtonWatchOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		928DEAD51C37B348002E7E88 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EA1E476C9F3FDBF7C051B70 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = thetaButtonWatchOS/thetaButtonWatchOS.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = thetaButtonWatchOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gladenjoy.thetaButtonWatchOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -544,6 +672,7 @@
 				928DEACD1C37B348002E7E88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		928DEACF1C37B348002E7E88 /* Build configuration list for PBXNativeTarget "thetaButtonWatchOS WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +681,7 @@
 				928DEAD11C37B348002E7E88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		928DEAD31C37B348002E7E88 /* Build configuration list for PBXNativeTarget "thetaButtonWatchOS" */ = {
 			isa = XCConfigurationList;
@@ -560,6 +690,7 @@
 				928DEAD51C37B348002E7E88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

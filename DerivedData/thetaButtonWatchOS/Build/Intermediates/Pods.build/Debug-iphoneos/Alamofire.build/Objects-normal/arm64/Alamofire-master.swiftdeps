@@ -1,0 +1,18 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "fbf85020068e2f72a8978832e7da715c"
+build_time: [505035172, 97429000]
+inputs:
+  "/Users/kirakutomoki/Google \u30C8\u3099\u30E9\u30A4\u30D5\u3099/thetaButtonWatchOS/Pods/Alamofire/Source/ResponseSerialization.swift": [505034959, 0]
+  "/Users/kirakutomoki/Google \u30C8\u3099\u30E9\u30A4\u30D5\u3099/thetaButtonWatchOS/Pods/Alamofire/Source/Result.swift": [505034959, 0]
+  "/Users/kirakutomoki/Google \u30C8\u3099\u30E9\u30A4\u30D5\u3099/thetaButtonWatchOS/Pods/Alamofire/Source/Download.swift": [505034959, 0]
+  "/Users/kirakutomoki/Google \u30C8\u3099\u30E9\u30A4\u30D5\u3099/thetaButtonWatchOS/Pods/Alamofire/Source/Alamofire.swift": [505034959, 0]
+  "/Users/kirakutomoki/Google \u30C8\u3099\u30E9\u30A4\u30D5\u3099/thetaButtonWatchOS/Pods/Alamofire/Source/ServerTrustPolicy.swift": [505034959, 0]
+  "/Users/kirakutomoki/Google \u30C8\u3099\u30E9\u30A4\u30D5\u3099/thetaButtonWatchOS/Pods/Alamofire/Source/MultipartFormData.swift": [505034959, 0]
+  "/Users/kirakutomoki/Google \u30C8\u3099\u30E9\u30A4\u30D5\u3099/thetaButtonWatchOS/Pods/Alamofire/Source/Request.swift": [505034959, 0]
+  "/Users/kirakutomoki/Google \u30C8\u3099\u30E9\u30A4\u30D5\u3099/thetaButtonWatchOS/Pods/Alamofire/Source/Response.swift": [505034959, 0]
+  "/Users/kirakutomoki/Google \u30C8\u3099\u30E9\u30A4\u30D5\u3099/thetaButtonWatchOS/Pods/Alamofire/Source/Manager.swift": [505034959, 0]
+  "/Users/kirakutomoki/Google \u30C8\u3099\u30E9\u30A4\u30D5\u3099/thetaButtonWatchOS/Pods/Alamofire/Source/Error.swift": [505034959, 0]
+  "/Users/kirakutomoki/Google \u30C8\u3099\u30E9\u30A4\u30D5\u3099/thetaButtonWatchOS/Pods/Alamofire/Source/ParameterEncoding.swift": [505034959, 0]
+  "/Users/kirakutomoki/Google \u30C8\u3099\u30E9\u30A4\u30D5\u3099/thetaButtonWatchOS/Pods/Alamofire/Source/Stream.swift": [505034959, 0]
+  "/Users/kirakutomoki/Google \u30C8\u3099\u30E9\u30A4\u30D5\u3099/thetaButtonWatchOS/Pods/Alamofire/Source/Upload.swift": [505034959, 0]
+  "/Users/kirakutomoki/Google \u30C8\u3099\u30E9\u30A4\u30D5\u3099/thetaButtonWatchOS/Pods/Alamofire/Source/Validation.swift": [505034959, 0]

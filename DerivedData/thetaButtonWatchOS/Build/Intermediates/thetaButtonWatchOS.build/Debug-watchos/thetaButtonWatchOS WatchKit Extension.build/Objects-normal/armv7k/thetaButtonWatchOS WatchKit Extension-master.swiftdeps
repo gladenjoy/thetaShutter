@@ -1,0 +1,7 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "dc5637202dc97caee03a5649d9e4c8b0"
+build_time: [505039273, 145234000]
+inputs:
+  "/Users/kirakutomoki/Google \u30C8\u3099\u30E9\u30A4\u30D5\u3099/thetaButtonWatchOS/thetaButtonWatchOS WatchKit Extension/ExtensionDelegate.swift": [505034824, 0]
+  "/Users/kirakutomoki/Google \u30C8\u3099\u30E9\u30A4\u30D5\u3099/thetaButtonWatchOS/thetaButtonWatchOS WatchKit Extension/InterfaceController.swift": !private [505039271, 0]
+  "/Users/kirakutomoki/Google \u30C8\u3099\u30E9\u30A4\u30D5\u3099/thetaButtonWatchOS/thetaButtonWatchOS WatchKit Extension/NotificationController.swift": [505034824, 0]

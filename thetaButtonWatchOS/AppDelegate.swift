@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import WatchKit
+import Alamofire
+import SwiftyJSON
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var sessionID: String = ""
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
@@ -39,6 +42,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    }
+    
+    // WatchKit Extension から openParentApplication:reply: が実行されると、このメソッドが呼び出されます。
+    func application(application: UIApplication, handleWatchKitExtensionRequest userInfo: [NSObject : AnyObject]?, reply: ([NSObject : AnyObject]?) -> Void) {
+        let param = [
+            "name": "camera.takePicture",
+            "parameters": ["sessionId" : self.sessionID]
+        ]
+        debugPrint(param)
+        Alamofire.request(.POST, "http://192.168.1.1/osc/commands/execute", parameters: param,
+            encoding: .JSON)  .responseJSON { response in
+                print(response)
+        }
+        reply(["":""])
+        
     }
 
 

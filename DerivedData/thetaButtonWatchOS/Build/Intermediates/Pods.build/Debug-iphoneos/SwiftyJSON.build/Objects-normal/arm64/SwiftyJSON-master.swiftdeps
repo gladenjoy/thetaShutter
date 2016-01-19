@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "df05b4f181f3b9121989f15a863640bd"
+build_time: [505035205, 512947000]
+inputs:
+  "/Users/kirakutomoki/Google \u30C8\u3099\u30E9\u30A4\u30D5\u3099/thetaButtonWatchOS/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [505034958, 0]

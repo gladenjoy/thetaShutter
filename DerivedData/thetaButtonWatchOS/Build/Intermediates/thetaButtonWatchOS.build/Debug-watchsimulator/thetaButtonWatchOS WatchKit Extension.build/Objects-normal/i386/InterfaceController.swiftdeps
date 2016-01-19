@@ -1,0 +1,277 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "InterfaceController"
+provides-nominal:
+- "C37thetaButtonWatchOS_WatchKit_Extension19InterfaceController"
+provides-member:
+- ["C37thetaButtonWatchOS_WatchKit_Extension19InterfaceController", ""]
+provides-dynamic-lookup:
+- "didDeactivate"
+- "awakeWithContext"
+- "takepicButton"
+- "willActivate"
+depends-top-level:
+- !private "StringLiteralType"
+- "WKInterfaceController"
+- !private "NSLog"
+- !private "String"
+- "AnyObject"
+- !private "Dictionary"
+- "InterfaceController"
+depends-member:
+- !private ["PSs9AnyObject", "NSLog"]
+- !private ["PSs9AnyObject", "WKInterfaceController"]
+- ["PSs9AnyObject", "awakeWithContext"]
+- ["PSs9AnyObject", "didDeactivate"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "openParentApplication"]
+- ["PSs9AnyObject", "takepicButton"]
+- ["PSs9AnyObject", "willActivate"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "NSLog"]
+- !private ["PSs11CVarArgType", "WKInterfaceController"]
+- ["PSs11CVarArgType", "awakeWithContext"]
+- ["PSs11CVarArgType", "didDeactivate"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "openParentApplication"]
+- ["PSs11CVarArgType", "takepicButton"]
+- ["PSs11CVarArgType", "willActivate"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
+- !private ["PSs14CollectionType", "Key"]
+- !private ["PSs14CollectionType", "SubSequence"]
+- !private ["PSs14CollectionType", "Value"]
+- !private ["PSs14CollectionType", "_Element"]
+- !private ["PSs14CollectionType", "subscript"]
+- !private ["PSs10Comparable", "Distance"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs10Comparable", "_DisabledRangeIndex"]
+- !private ["PSs28CustomDebugStringConvertible", "Generator"]
+- !private ["PSs28CustomDebugStringConvertible", "Index"]
+- !private ["PSs28CustomDebugStringConvertible", "Key"]
+- !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
+- !private ["PSs28CustomDebugStringConvertible", "Value"]
+- !private ["PSs28CustomDebugStringConvertible", "_Element"]
+- !private ["PSs28CustomDebugStringConvertible", "subscript"]
+- !private ["PSs23CustomStringConvertible", "Generator"]
+- !private ["PSs23CustomStringConvertible", "Index"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "Key"]
+- !private ["PSs23CustomStringConvertible", "NSLog"]
+- !private ["PSs23CustomStringConvertible", "SubSequence"]
+- !private ["PSs23CustomStringConvertible", "Value"]
+- !private ["PSs23CustomStringConvertible", "WKInterfaceController"]
+- !private ["PSs23CustomStringConvertible", "_Element"]
+- ["PSs23CustomStringConvertible", "awakeWithContext"]
+- ["PSs23CustomStringConvertible", "didDeactivate"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "openParentApplication"]
+- !private ["PSs23CustomStringConvertible", "subscript"]
+- ["PSs23CustomStringConvertible", "takepicButton"]
+- ["PSs23CustomStringConvertible", "willActivate"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["VSs10Dictionary", "Generator"]
+- !private ["VSs10Dictionary", "Index"]
+- !private ["VSs10Dictionary", "Key"]
+- !private ["VSs10Dictionary", "SubSequence"]
+- !private ["VSs10Dictionary", "Value"]
+- !private ["VSs10Dictionary", "_Element"]
+- !private ["VSs10Dictionary", "deinit"]
+- !private ["VSs10Dictionary", "subscript"]
+- !private ["VSs15DictionaryIndex", "Distance"]
+- !private ["VSs15DictionaryIndex", "_DisabledRangeIndex"]
+- !private ["VSs15DictionaryIndex", "deinit"]
+- !private ["PSs28DictionaryLiteralConvertible", "Generator"]
+- !private ["PSs28DictionaryLiteralConvertible", "Index"]
+- !private ["PSs28DictionaryLiteralConvertible", "Key"]
+- !private ["PSs28DictionaryLiteralConvertible", "SubSequence"]
+- !private ["PSs28DictionaryLiteralConvertible", "Value"]
+- !private ["PSs28DictionaryLiteralConvertible", "_Element"]
+- !private ["PSs28DictionaryLiteralConvertible", "subscript"]
+- !private ["PSs9Equatable", "Distance"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "NSLog"]
+- !private ["PSs9Equatable", "WKInterfaceController"]
+- !private ["PSs9Equatable", "_DisabledRangeIndex"]
+- ["PSs9Equatable", "awakeWithContext"]
+- ["PSs9Equatable", "didDeactivate"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "openParentApplication"]
+- ["PSs9Equatable", "takepicButton"]
+- ["PSs9Equatable", "willActivate"]
+- ["PSs9Equatable", ""]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs16ForwardIndexType", "_DisabledRangeIndex"]
+- !private ["PSs13GeneratorType", "Element"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "NSLog"]
+- !private ["PSs8Hashable", "WKInterfaceController"]
+- ["PSs8Hashable", "awakeWithContext"]
+- ["PSs8Hashable", "didDeactivate"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "openParentApplication"]
+- ["PSs8Hashable", "takepicButton"]
+- ["PSs8Hashable", "willActivate"]
+- ["PSs8Hashable", ""]
+- !private ["SQ", "deinit"]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
+- !private ["PSs9Indexable", "Key"]
+- !private ["PSs9Indexable", "SubSequence"]
+- !private ["PSs9Indexable", "Value"]
+- !private ["PSs9Indexable", "_Element"]
+- !private ["PSs9Indexable", "subscript"]
+- !private ["VSs17IndexingGenerator", "Element"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- ["C37thetaButtonWatchOS_WatchKit_Extension19InterfaceController", "AnyObject"]
+- !private ["C37thetaButtonWatchOS_WatchKit_Extension19InterfaceController", "NSLog"]
+- !private ["C37thetaButtonWatchOS_WatchKit_Extension19InterfaceController", "String"]
+- !private ["C37thetaButtonWatchOS_WatchKit_Extension19InterfaceController", "WKInterfaceController"]
+- ["C37thetaButtonWatchOS_WatchKit_Extension19InterfaceController", "awakeWithContext"]
+- ["C37thetaButtonWatchOS_WatchKit_Extension19InterfaceController", "deinit"]
+- ["C37thetaButtonWatchOS_WatchKit_Extension19InterfaceController", "didDeactivate"]
+- ["C37thetaButtonWatchOS_WatchKit_Extension19InterfaceController", "init"]
+- ["C37thetaButtonWatchOS_WatchKit_Extension19InterfaceController", "takepicButton"]
+- ["C37thetaButtonWatchOS_WatchKit_Extension19InterfaceController", "willActivate"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "NSLog"]
+- !private ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "WKInterfaceController"]
+- ["CSo8NSObject", "awakeWithContext"]
+- !private ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "didDeactivate"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "openParentApplication"]
+- ["CSo8NSObject", "takepicButton"]
+- ["CSo8NSObject", "willActivate"]
+- !private ["PSo16NSObjectProtocol", "NSLog"]
+- !private ["PSo16NSObjectProtocol", "WKInterfaceController"]
+- ["PSo16NSObjectProtocol", "awakeWithContext"]
+- ["PSo16NSObjectProtocol", "didDeactivate"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "openParentApplication"]
+- ["PSo16NSObjectProtocol", "takepicButton"]
+- ["PSo16NSObjectProtocol", "willActivate"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Sq", "deinit"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["VSs5Range", "deinit"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
+- !private ["PSs12SequenceType", "Key"]
+- !private ["PSs12SequenceType", "SubSequence"]
+- !private ["PSs12SequenceType", "Value"]
+- !private ["PSs12SequenceType", "_Element"]
+- !private ["PSs12SequenceType", "subscript"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["VSs5Slice", "Generator"]
+- !private ["VSs5Slice", "Index"]
+- !private ["VSs5Slice", "SubSequence"]
+- !private ["VSs5Slice", "_Element"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["SS", "deinit"]
+- ["CSo21WKInterfaceController", "AnyObject"]
+- !private ["CSo21WKInterfaceController", "NSLog"]
+- !private ["CSo21WKInterfaceController", "String"]
+- !private ["CSo21WKInterfaceController", "WKInterfaceController"]
+- ["CSo21WKInterfaceController", "awakeWithContext"]
+- ["CSo21WKInterfaceController", "didDeactivate"]
+- ["CSo21WKInterfaceController", "init"]
+- !private ["CSo21WKInterfaceController", "openParentApplication"]
+- ["CSo21WKInterfaceController", "takepicButton"]
+- ["CSo21WKInterfaceController", "willActivate"]
+- ["CSo21WKInterfaceController", ""]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs14_Incrementable", "_DisabledRangeIndex"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Generator"]
+- !private ["PSs21_ObjectiveCBridgeable", "Index"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Key"]
+- !private ["PSs21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["PSs21_ObjectiveCBridgeable", "Value"]
+- !private ["PSs21_ObjectiveCBridgeable", "_Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "subscript"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Generator"]
+- !private ["PSs12_Reflectable", "Index"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Key"]
+- !private ["PSs12_Reflectable", "SubSequence"]
+- !private ["PSs12_Reflectable", "Value"]
+- !private ["PSs12_Reflectable", "_Element"]
+- !private ["PSs12_Reflectable", "subscript"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- "PSs11CVarArgType"
+- !private "PSs14CollectionType"
+- !private "PSs10Comparable"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "VSs10Dictionary"
+- !private "VSs15DictionaryIndex"
+- !private "PSs28DictionaryLiteralConvertible"
+- "PSs9Equatable"
+- !private "PSs16ForwardIndexType"
+- !private "PSs13GeneratorType"
+- "PSs8Hashable"
+- !private "SQ"
+- !private "PSs9Indexable"
+- !private "VSs17IndexingGenerator"
+- !private "Si"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- "C37thetaButtonWatchOS_WatchKit_Extension19InterfaceController"
+- !private "PSs14MirrorPathType"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Sq"
+- !private "PSs21RandomAccessIndexType"
+- !private "VSs5Range"
+- !private "PSs12SequenceType"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "VSs5Slice"
+- !private "PSs10Strideable"
+- !private "SS"
+- "CSo21WKInterfaceController"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs22_RandomAccessAmbiguity"
+- !private "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/WatchKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/CoreLocation.swiftmodule"
+interface-hash: "7d6ea2f3452f7a39d0cb2c0553137338"

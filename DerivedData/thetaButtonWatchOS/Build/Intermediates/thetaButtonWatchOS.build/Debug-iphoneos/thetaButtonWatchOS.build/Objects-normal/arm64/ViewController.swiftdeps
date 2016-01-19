@@ -1,0 +1,516 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "C18thetaButtonWatchOS14ViewController"
+provides-member:
+- ["C18thetaButtonWatchOS14ViewController", ""]
+provides-dynamic-lookup:
+- "sessionID"
+- "didReceiveMemoryWarning"
+- "viewWillDisappear"
+- "textview"
+- "takePicButton"
+- "endSessionButton"
+- "viewDidLoad"
+- "startSessionButton"
+depends-top-level:
+- "UIViewController"
+- !private "print"
+- "AnyObject"
+- "StringLiteralType"
+- !private "Dictionary"
+- !private "+"
+- "ViewController"
+- !private "NSUserDefaults"
+- !private "debugPrint"
+- "UITextView"
+- !private "Alamofire"
+- "Bool"
+- "String"
+- !private "NSDictionary"
+depends-member:
+- !private ["PSs9AnyObject", "Alamofire"]
+- !private ["PSs9AnyObject", "Key"]
+- !private ["PSs9AnyObject", "NSUserDefaults"]
+- !private ["PSs9AnyObject", "String"]
+- !private ["PSs9AnyObject", "Value"]
+- !private ["PSs9AnyObject", "debugPrint"]
+- !private ["PSs9AnyObject", "deinit"]
+- ["PSs9AnyObject", "didReceiveMemoryWarning"]
+- ["PSs9AnyObject", "endSessionButton"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "integerForKey"]
+- !private ["PSs9AnyObject", "print"]
+- !private ["PSs9AnyObject", "responseJSON"]
+- ["PSs9AnyObject", "sessionID"]
+- ["PSs9AnyObject", "startSessionButton"]
+- !private ["PSs9AnyObject", "subscript"]
+- ["PSs9AnyObject", "takePicButton"]
+- !private ["PSs9AnyObject", "text"]
+- ["PSs9AnyObject", "textview"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", "viewWillDisappear"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs11CVarArgType", "Alamofire"]
+- !private ["PSs11CVarArgType", "Key"]
+- !private ["PSs11CVarArgType", "NSUserDefaults"]
+- !private ["PSs11CVarArgType", "String"]
+- !private ["PSs11CVarArgType", "Value"]
+- !private ["PSs11CVarArgType", "debugPrint"]
+- ["PSs11CVarArgType", "didReceiveMemoryWarning"]
+- ["PSs11CVarArgType", "endSessionButton"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "integerForKey"]
+- !private ["PSs11CVarArgType", "print"]
+- ["PSs11CVarArgType", "sessionID"]
+- ["PSs11CVarArgType", "startSessionButton"]
+- !private ["PSs11CVarArgType", "subscript"]
+- ["PSs11CVarArgType", "takePicButton"]
+- !private ["PSs11CVarArgType", "text"]
+- ["PSs11CVarArgType", "textview"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", "viewWillDisappear"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs14CollectionType", "Key"]
+- !private ["PSs14CollectionType", "Value"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "Key"]
+- !private ["PSs28CustomDebugStringConvertible", "Value"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "responseJSON"]
+- !private ["PSs28CustomDebugStringConvertible", "result"]
+- !private ["PSs28CustomDebugStringConvertible", "value"]
+- !private ["PSs23CustomStringConvertible", "Alamofire"]
+- !private ["PSs23CustomStringConvertible", "Key"]
+- !private ["PSs23CustomStringConvertible", "NSUserDefaults"]
+- !private ["PSs23CustomStringConvertible", "String"]
+- !private ["PSs23CustomStringConvertible", "Value"]
+- !private ["PSs23CustomStringConvertible", "debugPrint"]
+- ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
+- ["PSs23CustomStringConvertible", "endSessionButton"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "integerForKey"]
+- !private ["PSs23CustomStringConvertible", "print"]
+- !private ["PSs23CustomStringConvertible", "responseJSON"]
+- !private ["PSs23CustomStringConvertible", "result"]
+- ["PSs23CustomStringConvertible", "sessionID"]
+- ["PSs23CustomStringConvertible", "startSessionButton"]
+- !private ["PSs23CustomStringConvertible", "subscript"]
+- ["PSs23CustomStringConvertible", "takePicButton"]
+- !private ["PSs23CustomStringConvertible", "text"]
+- ["PSs23CustomStringConvertible", "textview"]
+- !private ["PSs23CustomStringConvertible", "value"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", "viewWillDisappear"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["VSs10Dictionary", "Key"]
+- !private ["VSs10Dictionary", "Value"]
+- !private ["VSs10Dictionary", "deinit"]
+- !private ["PSs28DictionaryLiteralConvertible", "Key"]
+- !private ["PSs28DictionaryLiteralConvertible", "Value"]
+- !private ["PSs28DictionaryLiteralConvertible", "subscript"]
+- !private ["PSs9Equatable", "Alamofire"]
+- !private ["PSs9Equatable", "Key"]
+- !private ["PSs9Equatable", "NSUserDefaults"]
+- !private ["PSs9Equatable", "POST"]
+- !private ["PSs9Equatable", "String"]
+- !private ["PSs9Equatable", "Value"]
+- !private ["PSs9Equatable", "debugPrint"]
+- ["PSs9Equatable", "didReceiveMemoryWarning"]
+- ["PSs9Equatable", "endSessionButton"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "integerForKey"]
+- !private ["PSs9Equatable", "print"]
+- ["PSs9Equatable", "sessionID"]
+- ["PSs9Equatable", "startSessionButton"]
+- !private ["PSs9Equatable", "subscript"]
+- ["PSs9Equatable", "takePicButton"]
+- !private ["PSs9Equatable", "text"]
+- ["PSs9Equatable", "textview"]
+- ["PSs9Equatable", "viewDidLoad"]
+- ["PSs9Equatable", "viewWillDisappear"]
+- ["PSs9Equatable", ""]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs8Hashable", "Alamofire"]
+- !private ["PSs8Hashable", "Key"]
+- !private ["PSs8Hashable", "NSUserDefaults"]
+- !private ["PSs8Hashable", "POST"]
+- !private ["PSs8Hashable", "String"]
+- !private ["PSs8Hashable", "Value"]
+- !private ["PSs8Hashable", "debugPrint"]
+- ["PSs8Hashable", "didReceiveMemoryWarning"]
+- ["PSs8Hashable", "endSessionButton"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "integerForKey"]
+- !private ["PSs8Hashable", "print"]
+- ["PSs8Hashable", "sessionID"]
+- ["PSs8Hashable", "startSessionButton"]
+- !private ["PSs8Hashable", "subscript"]
+- ["PSs8Hashable", "takePicButton"]
+- !private ["PSs8Hashable", "text"]
+- ["PSs8Hashable", "textview"]
+- ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", "viewWillDisappear"]
+- ["PSs8Hashable", ""]
+- !private ["PSs9Indexable", "Key"]
+- !private ["PSs9Indexable", "Value"]
+- !private ["P10SwiftyJSON17JSONSubscriptType", "init"]
+- !private ["O9Alamofire6Method", "POST"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["PSo8NSCoding", "Alamofire"]
+- !private ["PSo8NSCoding", "Key"]
+- !private ["PSo8NSCoding", "NSUserDefaults"]
+- !private ["PSo8NSCoding", "String"]
+- !private ["PSo8NSCoding", "Value"]
+- !private ["PSo8NSCoding", "debugPrint"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- ["PSo8NSCoding", "endSessionButton"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "print"]
+- ["PSo8NSCoding", "sessionID"]
+- ["PSo8NSCoding", "startSessionButton"]
+- !private ["PSo8NSCoding", "subscript"]
+- ["PSo8NSCoding", "takePicButton"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "textview"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", "viewWillDisappear"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "Key"]
+- !private ["PSo9NSCopying", "Value"]
+- !private ["PSo9NSCopying", "deinit"]
+- !private ["PSo9NSCopying", "subscript"]
+- !private ["CSo12NSDictionary", "Key"]
+- !private ["CSo12NSDictionary", "Value"]
+- !private ["CSo12NSDictionary", "deinit"]
+- !private ["CSo12NSDictionary", "subscript"]
+- !private ["PSo26NSExtensionRequestHandling", "Alamofire"]
+- !private ["PSo26NSExtensionRequestHandling", "NSUserDefaults"]
+- !private ["PSo26NSExtensionRequestHandling", "String"]
+- !private ["PSo26NSExtensionRequestHandling", "debugPrint"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "endSessionButton"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "sessionID"]
+- ["PSo26NSExtensionRequestHandling", "startSessionButton"]
+- ["PSo26NSExtensionRequestHandling", "takePicButton"]
+- ["PSo26NSExtensionRequestHandling", "textview"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", "viewWillDisappear"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo17NSFastEnumeration", "Key"]
+- !private ["PSo17NSFastEnumeration", "Value"]
+- !private ["PSo17NSFastEnumeration", "subscript"]
+- !private ["PSo16NSMutableCopying", "Key"]
+- !private ["PSo16NSMutableCopying", "Value"]
+- !private ["PSo16NSMutableCopying", "subscript"]
+- !private ["CSo8NSObject", "Alamofire"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "Key"]
+- !private ["CSo8NSObject", "NSDictionary"]
+- !private ["CSo8NSObject", "NSUserDefaults"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UITextView"]
+- !private ["CSo8NSObject", "Value"]
+- !private ["CSo8NSObject", "debugPrint"]
+- !private ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "endSessionButton"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "integerForKey"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "sessionID"]
+- ["CSo8NSObject", "startSessionButton"]
+- !private ["CSo8NSObject", "subscript"]
+- ["CSo8NSObject", "takePicButton"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "textview"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["CSo8NSObject", "viewWillDisappear"]
+- !private ["PSo16NSObjectProtocol", "Alamofire"]
+- !private ["PSo16NSObjectProtocol", "Key"]
+- !private ["PSo16NSObjectProtocol", "NSUserDefaults"]
+- !private ["PSo16NSObjectProtocol", "String"]
+- !private ["PSo16NSObjectProtocol", "Value"]
+- !private ["PSo16NSObjectProtocol", "debugPrint"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "endSessionButton"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "integerForKey"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- ["PSo16NSObjectProtocol", "sessionID"]
+- ["PSo16NSObjectProtocol", "startSessionButton"]
+- !private ["PSo16NSObjectProtocol", "subscript"]
+- ["PSo16NSObjectProtocol", "takePicButton"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", "textview"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "viewWillDisappear"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "Key"]
+- !private ["PSo14NSSecureCoding", "Value"]
+- !private ["PSo14NSSecureCoding", "subscript"]
+- !private ["CSo14NSUserDefaults", "init"]
+- !private ["CSo14NSUserDefaults", "integerForKey"]
+- ["Sq", "deinit"]
+- !private ["PSs16OutputStreamType", "init"]
+- !private ["O9Alamofire17ParameterEncoding", "JSON"]
+- !private ["PSs16RawRepresentable", "POST"]
+- !private ["C9Alamofire7Request", "responseJSON"]
+- !private ["V9Alamofire8Response", "deinit"]
+- !private ["V9Alamofire8Response", "result"]
+- !private ["O9Alamofire6Result", "value"]
+- !private ["PSs12SequenceType", "Key"]
+- !private ["PSs12SequenceType", "Value"]
+- !private ["PSs12SequenceType", "subscript"]
+- !private ["PSs10Streamable", "init"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "Alamofire"]
+- !private ["PSo21UIAppearanceContainer", "NSUserDefaults"]
+- !private ["PSo21UIAppearanceContainer", "String"]
+- !private ["PSo21UIAppearanceContainer", "debugPrint"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- ["PSo21UIAppearanceContainer", "endSessionButton"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- ["PSo21UIAppearanceContainer", "sessionID"]
+- ["PSo21UIAppearanceContainer", "startSessionButton"]
+- ["PSo21UIAppearanceContainer", "takePicButton"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "textview"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", "viewWillDisappear"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "Alamofire"]
+- !private ["PSo18UIContentContainer", "NSUserDefaults"]
+- !private ["PSo18UIContentContainer", "String"]
+- !private ["PSo18UIContentContainer", "debugPrint"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "endSessionButton"]
+- ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "sessionID"]
+- ["PSo18UIContentContainer", "startSessionButton"]
+- ["PSo18UIContentContainer", "takePicButton"]
+- ["PSo18UIContentContainer", "textview"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", "viewWillDisappear"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "Alamofire"]
+- !private ["PSo18UIFocusEnvironment", "NSUserDefaults"]
+- !private ["PSo18UIFocusEnvironment", "String"]
+- !private ["PSo18UIFocusEnvironment", "debugPrint"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UIFocusEnvironment", "endSessionButton"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- ["PSo18UIFocusEnvironment", "sessionID"]
+- ["PSo18UIFocusEnvironment", "startSessionButton"]
+- ["PSo18UIFocusEnvironment", "takePicButton"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "textview"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", "viewWillDisappear"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo10UIKeyInput", "text"]
+- !private ["CSo11UIResponder", "Alamofire"]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "NSDictionary"]
+- !private ["CSo11UIResponder", "NSUserDefaults"]
+- ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UITextView"]
+- !private ["CSo11UIResponder", "debugPrint"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "endSessionButton"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "sessionID"]
+- ["CSo11UIResponder", "startSessionButton"]
+- ["CSo11UIResponder", "takePicButton"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "textview"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["CSo11UIResponder", "viewWillDisappear"]
+- !private ["CSo12UIScrollView", "text"]
+- !private ["PSo16UIStateRestoring", "Alamofire"]
+- !private ["PSo16UIStateRestoring", "NSUserDefaults"]
+- !private ["PSo16UIStateRestoring", "String"]
+- !private ["PSo16UIStateRestoring", "debugPrint"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "endSessionButton"]
+- ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "sessionID"]
+- ["PSo16UIStateRestoring", "startSessionButton"]
+- ["PSo16UIStateRestoring", "takePicButton"]
+- ["PSo16UIStateRestoring", "textview"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", "viewWillDisappear"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo11UITextInput", "text"]
+- !private ["PSo17UITextInputTraits", "text"]
+- !private ["CSo10UITextView", "text"]
+- !private ["PSo18UITraitEnvironment", "Alamofire"]
+- !private ["PSo18UITraitEnvironment", "NSUserDefaults"]
+- !private ["PSo18UITraitEnvironment", "String"]
+- !private ["PSo18UITraitEnvironment", "debugPrint"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UITraitEnvironment", "endSessionButton"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- ["PSo18UITraitEnvironment", "sessionID"]
+- ["PSo18UITraitEnvironment", "startSessionButton"]
+- ["PSo18UITraitEnvironment", "takePicButton"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "textview"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", "viewWillDisappear"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "text"]
+- !private ["CSo16UIViewController", "Alamofire"]
+- ["CSo16UIViewController", "AnyObject"]
+- ["CSo16UIViewController", "Bool"]
+- !private ["CSo16UIViewController", "NSDictionary"]
+- !private ["CSo16UIViewController", "NSUserDefaults"]
+- ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "UITextView"]
+- !private ["CSo16UIViewController", "debugPrint"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "endSessionButton"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "sessionID"]
+- ["CSo16UIViewController", "startSessionButton"]
+- ["CSo16UIViewController", "takePicButton"]
+- ["CSo16UIViewController", "textview"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", "viewWillDisappear"]
+- ["CSo16UIViewController", ""]
+- !private ["P9Alamofire20URLStringConvertible", "deinit"]
+- !private ["P9Alamofire20URLStringConvertible", "init"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- !private ["C18thetaButtonWatchOS14ViewController", "Alamofire"]
+- ["C18thetaButtonWatchOS14ViewController", "AnyObject"]
+- ["C18thetaButtonWatchOS14ViewController", "Bool"]
+- !private ["C18thetaButtonWatchOS14ViewController", "NSDictionary"]
+- !private ["C18thetaButtonWatchOS14ViewController", "NSUserDefaults"]
+- ["C18thetaButtonWatchOS14ViewController", "String"]
+- ["C18thetaButtonWatchOS14ViewController", "UITextView"]
+- !private ["C18thetaButtonWatchOS14ViewController", "debugPrint"]
+- ["C18thetaButtonWatchOS14ViewController", "deinit"]
+- ["C18thetaButtonWatchOS14ViewController", "didReceiveMemoryWarning"]
+- ["C18thetaButtonWatchOS14ViewController", "endSessionButton"]
+- ["C18thetaButtonWatchOS14ViewController", "init"]
+- !private ["C18thetaButtonWatchOS14ViewController", "print"]
+- ["C18thetaButtonWatchOS14ViewController", "sessionID"]
+- ["C18thetaButtonWatchOS14ViewController", "startSessionButton"]
+- ["C18thetaButtonWatchOS14ViewController", "takePicButton"]
+- ["C18thetaButtonWatchOS14ViewController", "textview"]
+- ["C18thetaButtonWatchOS14ViewController", "viewDidLoad"]
+- ["C18thetaButtonWatchOS14ViewController", "viewWillDisappear"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "Key"]
+- !private ["PSs21_ObjectiveCBridgeable", "Value"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs12_Reflectable", "Key"]
+- !private ["PSs12_Reflectable", "Value"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "subscript"]
+- !private ["PSs12_Reflectable", "text"]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- !private "PSs14CollectionType"
+- !private "PSs10Comparable"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "VSs10Dictionary"
+- !private "PSs28DictionaryLiteralConvertible"
+- "PSs9Equatable"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- "PSs8Hashable"
+- !private "PSs9Indexable"
+- !private "P10SwiftyJSON17JSONSubscriptType"
+- !private "O9Alamofire6Method"
+- !private "PSs14MirrorPathType"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo12NSDictionary"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo17NSFastEnumeration"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo14NSUserDefaults"
+- "Sq"
+- !private "PSs16OutputStreamType"
+- !private "O9Alamofire17ParameterEncoding"
+- !private "PSs16RawRepresentable"
+- !private "C9Alamofire7Request"
+- !private "V9Alamofire8Response"
+- !private "O9Alamofire6Result"
+- !private "PSs12SequenceType"
+- !private "PSs10Streamable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo10UIKeyInput"
+- "CSo11UIResponder"
+- !private "CSo12UIScrollView"
+- "PSo16UIStateRestoring"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
+- !private "CSo10UITextView"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "P9Alamofire20URLStringConvertible"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- "C18thetaButtonWatchOS14ViewController"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/kirakutomoki/Google \u30C8\u3099\u30E9\u30A4\u30D5\u3099/thetaButtonWatchOS/DerivedData/thetaButtonWatchOS/Build/Products/Debug-iphoneos/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/kirakutomoki/Google \u30C8\u3099\u30E9\u30A4\u30D5\u3099/thetaButtonWatchOS/DerivedData/thetaButtonWatchOS/Build/Products/Debug-iphoneos/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/kirakutomoki/Google \u30C8\u3099\u30E9\u30A4\u30D5\u3099/thetaButtonWatchOS/DerivedData/thetaButtonWatchOS/Build/Products/Debug-iphoneos/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/kirakutomoki/Google \u30C8\u3099\u30E9\u30A4\u30D5\u3099/thetaButtonWatchOS/DerivedData/thetaButtonWatchOS/Build/Products/Debug-iphoneos/Alamofire.framework/Modules/module.modulemap"
+- "/Users/kirakutomoki/Google \u30C8\u3099\u30E9\u30A4\u30D5\u3099/thetaButtonWatchOS/DerivedData/thetaButtonWatchOS/Build/Products/Debug-iphoneos/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm64.swiftmodule"
+- "/Users/kirakutomoki/Google \u30C8\u3099\u30E9\u30A4\u30D5\u3099/thetaButtonWatchOS/DerivedData/thetaButtonWatchOS/Build/Products/Debug-iphoneos/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/kirakutomoki/Google \u30C8\u3099\u30E9\u30A4\u30D5\u3099/thetaButtonWatchOS/DerivedData/thetaButtonWatchOS/Build/Products/Debug-iphoneos/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/kirakutomoki/Google \u30C8\u3099\u30E9\u30A4\u30D5\u3099/thetaButtonWatchOS/DerivedData/thetaButtonWatchOS/Build/Products/Debug-iphoneos/SwiftyJSON.framework/Modules/module.modulemap"
+interface-hash: "60de9cc279f2ca471aed64c2ab1ec2a0"

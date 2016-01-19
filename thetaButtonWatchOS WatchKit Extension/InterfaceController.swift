@@ -8,6 +8,7 @@
 
 import WatchKit
 import Foundation
+import WatchConnectivity
 
 
 class InterfaceController: WKInterfaceController {
@@ -28,4 +29,9 @@ class InterfaceController: WKInterfaceController {
         super.didDeactivate()
     }
 
+    @IBAction func takepicButton() {
+        let userInfo: NSData = 1
+        //iPhone側の親アプリに値を連携
+        WCSession.sendMessageData()
+    }
 }

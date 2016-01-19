@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "81e699bb0043ec522cd0364655d2c2d0"
+build_time: [505036934, 221857000]
+inputs:
+  "/Users/kirakutomoki/Google \u30C8\u3099\u30E9\u30A4\u30D5\u3099/thetaButtonWatchOS/thetaButtonWatchOS/ViewController.swift": [505036929, 0]
+  "/Users/kirakutomoki/Google \u30C8\u3099\u30E9\u30A4\u30D5\u3099/thetaButtonWatchOS/thetaButtonWatchOS/AppDelegate.swift": [505034823, 0]
